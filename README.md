@@ -171,6 +171,7 @@ Use `Log.d` and `Log.e` filters to monitor SDK behavior.
 class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
+        FirebaseApp.initializeApp(this)
         FHSDK.initialize(
             context = this,
             matomoUrl = "https://matomo.yoursite.com",
