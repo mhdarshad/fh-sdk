@@ -70,6 +70,12 @@ implementation(files("../packages/fhsdk-release.aar"))
 
 ## 🔌 SDK Initialization
 
+Import the SDK:
+
+```kotlin
+import com.firsthive.fhsdk.FHSDK
+```
+
 Initialize `FHSDK` in your `Application` class or at app launch:
 
 ```kotlin
