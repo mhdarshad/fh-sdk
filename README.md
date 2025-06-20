@@ -60,10 +60,10 @@ Sample Testing FHSDK/
 
 ```
 
-In your app’s `build.gradle` file, include the following dependencies:
+In your app’s `build.gradle.kts` or `build.gradle`: file, include the following dependencies:
 
-```groovy
-implementation 'path/to/fhsdk' // or latest
+```kotlin
+implementation(files("../packages/fhsdk-release.aar"))
 ```
 
 ---
