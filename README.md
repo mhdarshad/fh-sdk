@@ -1,4 +1,5 @@
 # 📦 FHSDK Integration Guide
+[![](https://jitpack.io/v/mhdarshad/fh-sdk.svg)](https://jitpack.io/#mhdarshad/fh-sdk)
 
 ## Overview
 
