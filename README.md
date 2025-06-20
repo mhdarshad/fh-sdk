@@ -39,15 +39,7 @@ Before integrating FHSDK, ensure the following:
 In your app’s `build.gradle` file, include the following dependencies:
 
 ```groovy
-implementation 'org.matomo.sdk:tracker:4.1.3' // or latest
-implementation 'com.google.firebase:firebase-messaging:23.0.0' // or latest
-implementation 'com.squareup.okhttp3:okhttp:4.12.0' // or latest
-```
-
-Also apply the Google services plugin:
-
-```groovy
-apply plugin: 'com.google.gms.google-services'
+implementation 'path/to/fhsdk' // or latest
 ```
 
 ---
