@@ -36,6 +36,30 @@ Before integrating FHSDK, ensure the following:
 
 ## ⚙️ Dependency Setup
 
+
+Sample Testing FHSDK/
+
+```txt
+├── .gradle/
+├── .idea/
+├── .kotlin/
+├── app/
+├── build/
+├── fhsdk/
+├── fhsdkshared/
+├── gradle/
+├── packages/
+│ └── fhsdk-release.aar ← 📦 AAR File
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+└── settings.gradle.kts
+
+```
+
 In your app’s `build.gradle` file, include the following dependencies:
 
 ```groovy
